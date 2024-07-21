@@ -2,58 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family:'Poppins' ;
-    background-image: linear-gradient(to right ,#120f31, #1b1745, #120f31 , #241633);
+body {
+  font-family: "Poppins";
+  background-image: linear-gradient(
+    to right,
+    #120f31,
+    #1b1745,
+    #120f31,
+    #241633
+  );
 }
 
-movie-pic{
-    width: 1000px;
-    margin-right:20px ;
-    object-fit: fill;
-    border: white;
-}
- /* #movie-container {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 1.75 rem;
- } */
+.outer-card {
+  background-color: #120f31;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 
-.outer-card{
-    background-color: #120f31;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    height: 100%;
-    width: 20rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    border-radius: 0.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 0.75rem;
 }
-.inner-card{
-    border-radius: 0.75rem;
-    margin: 0.5rem;
+.inner-card {
+  border-radius: 0.75rem;
+  margin: 0.5rem;
 }
-.name{
-    font-weight: 700;
-    color: rgb(229 231 235);
-    padding: 1rem;
-    letter-spacing: 0.025em;
+.name {
+  font-weight: 700;
+  color: rgb(229 231 235);
+  padding: 1rem;
+  letter-spacing: 0.025em;
 }
- img {
-    object-fit: contain;
-    border-radius: 0.75rem;
-    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 150ms;
- }
+img {
+  object-fit: contain;
+  border-radius: 0.75rem;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 150ms;
+}
 
- img :hover{
-    object-fit: fill;
-    transform: translateY(0.25rem);
-    transition-duration: 300ms;
-    transform: scale(1);
- }
-
-
+img :hover {
+  object-fit: fill;
+  transform: translateY(0.25rem);
+  transition-duration: 300ms;
+  transform: scale(1);
+}
